@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homesafe Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f0ec;
+            color: #333;
+        }
+        .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 2rem;
+                border-bottom: 1px solid #ccc;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav a {
+            margin-left: 1.5rem;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .container {
+            height: 80vh;
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;        
+        }
+
+        .left {
+            width: 50%;
+        }
+
+        .left h1 {
+            font-size: 10em;
+            font-weight: normal;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .right {
+            width: 40%;
+            background-color: #E6E0DB;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .right label {
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .right input {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .right input[type="text"], .right input[type="email"], .right input[type="password"] {
+            font-size: 0.9em;
+        }
+
+        .right .half-width {
+            width: 48%;
+            display: inline-block;
+        }
+
+        .button {
+            width: 100%;
+            padding: 10px;
+            background-color: #A29587;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="primervistazo.html">
+            <div class="logo">HOMESAFE</div>
+          </a>
+        <nav class="nav">
+            <a href="Ubicaciones.html">Ubicaciones</a>
+            <a href="Registro.html">Registrarse</a>
+            <a href="Iniciar_Sesion.html">Iniciar Sesión</a>
+            <a href="#">Contáctanos</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">
+            <h1>INICIAR SESION</h1>
+        </div>
+        
+        <div class="right">
+            <form>
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" placeholder="Insert Your E-mail Address">
+                
+                <label for="password">Contraseña <span class="required">*</span></label>
+                <input type="password" id="password" placeholder="Insert Your Password">
+
+                <button type="submit" class="button">Iniciar Sesion</button>
+            </form>
+
+            <div class="footer">
+                <p>safehome2002@reall.com</p>
+                <p>www.safehomesite.com</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
